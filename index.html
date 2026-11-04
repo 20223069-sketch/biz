@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이종현 - 자기소개</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 600px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+        .header {
+            background-color: #1e3a8a;
+            color: #ffffff;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+        .header p {
+            font-size: 1.1rem;
+            color: #93c5fd;
+        }
+        .content {
+            padding: 30px;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .section:last-child {
+            margin-bottom: 0;
+        }
+        .section-title {
+            font-size: 1.2rem;
+            color: #1e3a8a;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .info-list {
+            list-style: none;
+        }
+        .info-list li {
+            margin-bottom: 10px;
+            display: flex;
+        }
+        .info-list strong {
+            width: 100px;
+            color: #475569;
+        }
+        .tag-container {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+        .tag {
+            background-color: #eff6ff;
+            color: #1d4ed8;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #f8fafc;
+            color: #94a3b8;
+            font-size: 0.85rem;
+            border-top: 1px solid #e2e8f0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 헤더 영역 -->
+        <header class="header">
+            <h1>이종현</h1>
+            <p>경영정보학과 (Management Information Systems)</p>
+        </header>
+
+        <!-- 본문 영역 -->
+        <main class="content">
+            <!-- 기본 정보 -->
+            <section class="section">
+                <h2 class="section-title">인적 사항</h2>
+                <ul class="info-list">
+                    <li><strong>이름</strong> <span>이종현</span></li>
+                    <li><strong>전공</strong> <span>경영정보학과</span></li>
+                    <li><strong>관심 분야</strong> <span>비즈니스 데이터 분석, IT 전략 planning, 시스템 설계</span></li>
+                </ul>
+            </section>
+
+            <!-- 소개 글 -->
+            <section class="section">
+                <h2 class="section-title">소개</h2>
+                <p>
+                    안녕하세요! 경영학적 통찰과 IT 기술을 융합하여 문제를 해결하는 **경영정보학과 이종현**입니다.
+                    데이터 기반의 의사결정과 효율적인 정보시스템 구축에 관심이 많으며, 기술을 통해 비즈니스 가치를 창출하는 융합형 인재를 목표로 하고 있습니다.
+                </p>
+            </section>
+
+            <!-- 키워드 태그 -->
+            <section class="section">
+                <h2 class="section-title">주요 키워드</h2>
+                <div class="tag-container">
+                    <span class="tag">#경영정보학</span>
+                    <span class="tag">#데이터분석</span>
+                    <span class="tag">#비즈니스IT</span>
+                    <span class="tag">#문제해결</span>
+                </div>
+            </section>
+        </main>
+
+        <!-- 푸터 영역 -->
+        <footer class="footer">
+            <p>&copy; 2026 Lee Jong-hyun. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
